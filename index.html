@@ -4,72 +4,112 @@
     <link  rel="stylesheet" href="./src/output.css" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Livraison de repas frais à domicile.">
-    <title>BioRepas - Livraison de repas</title>
+    <meta name="description" content="Livraison de repas bio et frais à domicile.">
+    <title>| Ecoeat | - Livraison de repas bio</title>
     
-<body >
+ <body >
   
     <header class="bg-green-600 text-white p-6">
         <div class="container mx-auto flex justify-between items-center">
             <h1 class="text-3xl font-bold">Manger écolo</h1>
             <nav>
                 <ul class="flex space-x-6">
-                    <li><a href="#services" class="hover:underline">Nos Services</a></li>
-                    <li><a href="#menu" class="hover:underline">Notre Menu</a></li>
+                    <li><a href="#services" class="hover:underline">Services</a></li>
+                    <li><a href="#menu" class="hover:underline">Menu</a></li>
                     <li><a href="#contact" class="hover:underline">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <section >
-        <div >
-            <h2 >test</h2>
-            <p >test</p>
-            <a >test</a>
+    <section class="bg-green-200 text-center py-16">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-extrabold mb-4">Livraison de repas biologiques frais</h2>
+            <p class="text-lg mb-8">Découvrez nos repas préparés avec des ingrédients 100% biologiques et locaux. Fraîcheur garantie, livraison à domicile.</p>
+            <a href="#menu" class="bg-green-700 text-white py-3 px-6 rounded-full hover:bg-green-800 transition">Découvrez notre menu</a>
         </div>
     </section>
 
-   
-
-    <section >
-        <div>
-            <h3 ></h3>
-            <div >
-                
-              
-                
-                <div >
-                    <h4 >test</h4>
-                    <p>test</p>
-                    <span >test</span>
+    <section id="services" class="py-12">
+        <div class="container mx-auto text-center">
+            <h3 class="text-3xl font-bold mb-8">Pourquoi choisir Ecoeat ?</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="p-6 bg-white shadow-lg rounded-lg">
+                    <h4 class="text-xl font-semibold mb-4">Produits 100% Bio</h4>
+                    <p>Nous utilisons uniquement des ingrédients biologiques, respectueux de l'environnement et de votre santé.</p>
                 </div>
+                <div class="p-6 bg-white shadow-lg rounded-lg">
+                    <h4 class="text-xl font-semibold mb-4">Livraison Rapide</h4>
+                    <p>Commandez et recevez vos repas en moins de 30 minutes, directement chez vous, toujours frais.</p>
+                </div>
+                <div class="p-6 bg-white shadow-lg rounded-lg">
+                    <h4 class="text-xl font-semibold mb-4">Menus Équilibrés</h4>
+                    <p>Des repas variés et équilibrés pour toutes vos envies, adaptés à vos besoins alimentaires spécifiques.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    
+    <section id="menu" class="bg-green-100 py-12">
+        <div class="container mx-auto text-center">
+            <h3 class="text-3xl font-bold mb-8">Notre Menu</h3>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+               
+                <div class="p-6 bg-white shadow-lg rounded-lg">
+                    <h4 class="text-xl font-semibold mb-4">Salade Vitalité</h4>
+                    <p>Une délicieuse salade avec quinoa, avocat, et graines bio.</p>
+                    <span class="text-green-700 font-bold">12,90€</span>
+                </div>
                 
-                <div >
-                    <h4>test</h4>
-                    <p>test</p>
-                    <span >test</span>
+                <div class="p-6 bg-white shadow-lg rounded-lg">
+                    <h4 class="text-xl font-semibold mb-4">Bowl Énergie</h4>
+                    <p>Un bowl coloré à base de riz complet, légumes frais et tofu.</p>
+                    <span class="text-green-700 font-bold">14,90€</span>
+                </div>
+               
+                <div class="p-6 bg-white shadow-lg rounded-lg">
+                    <h4 class="text-xl font-semibold mb-4">Wrap Végétal</h4>
+                    <p>Wrap aux légumes grillés, hummus maison, et pousses de salade.</p>
+                    <span class="text-green-700 font-bold">9,90€</span>
+                </div>
+                
+                <div class="p-6 bg-white shadow-lg rounded-lg">
+                    <h4 class="text-xl font-semibold mb-4">Soupe du Jour</h4>
+                    <p>Soupe bio de saison, préparée chaque jour avec des ingrédients locaux.</p>
+                    <span class="text-green-700 font-bold">8,50€</span>
                 </div>
             </div>
         </div>
     </section>
 
 
-    <section>
-        <div >
-            <h3 >test</h3>
-           
+    <section id="contact" class="bg-white py-12">
+        <div class="container mx-auto text-center">
+            <h3 class="text-3xl font-bold mb-8">Contactez-nous</h3>
+            <form class="max-w-lg mx-auto">
+                <div class="mb-4">
+                    <input type="text" placeholder="Votre nom" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600">
+                </div>
+                <div class="mb-4">
+                    <input type="email" placeholder="Votre email" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600">
+                </div>
+                <div class="mb-4">
+                    <textarea placeholder="Votre message" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600"></textarea>
+                </div>
+                <button type="submit" class="bg-green-700 text-white py-3 px-6 rounded-full hover:bg-green-800 transition">Envoyer</button>
+            </form>
         </div>
     </section>
 
-    <footer >
-        <div >
-            <p></p>
-            <div >
-                <a></a> 
-                <a></a> 
-                <a></a>
+
+    <footer class="bg-green-600 text-white py-6">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 BioRepas.</p>
+            <div class="flex justify-center space-x-6 mt-4">
+                <a href="#" class="hover:underline">Facebook</a>
+                <a href="#" class="hover:underline">Instagram</a>
+                <a href="#" class="hover:underline">Twitter</a>
             </div>
         </div>
     </footer>
